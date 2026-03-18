@@ -1,0 +1,25 @@
+{
+  "name": "Tamil Calendar | தமிழ் நாட்காட்டி",
+  "short_name": "Tamil Calendar",
+  "description": "Free online Tamil Calendar with daily Panchangam, Tamil date, sunrise/sunset and Sun transit (Rasi Peyarchi) for Tamil Nadu.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "lang": "ta",
+  "dir": "ltr",
+  "categories": ["lifestyle", "utilities"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tamil Calendar monthly view"
+    }
+  ]
+}
