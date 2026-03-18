@@ -113,8 +113,7 @@ h1.header-title{font-family:'Noto Serif Tamil',serif;font-size:28px;font-weight:
 .doc-toggle-btn.open .arr{transform:rotate(180deg)}
 .doc-toggle-btn .ta-label{font-family:'Noto Serif Tamil',serif;font-size:12px;opacity:.7}
 /* DOC SECTION */
-.doc-wrapper{display:none;background:var(--parchment);border-top:3px solid var(--gold);border-bottom:3px solid var(--gold)}
-.doc-wrapper.visible{display:block}
+.doc-wrapper{display:block;background:var(--parchment);border-top:3px solid var(--gold);border-bottom:3px solid var(--gold)}
 .cover{background:linear-gradient(160deg,#1a0800 0%,#2d1500 40%,#1a0800 100%);padding:72px 24px 56px;text-align:center;position:relative}
 .cover::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(200,134,10,.15) 0%,transparent 70%)}
 .cover-kolam{font-size:16px;color:var(--gold);letter-spacing:12px;margin-bottom:28px;opacity:.7}
@@ -247,27 +246,9 @@ footer nav a:hover{color:var(--primary)}
   </div>
 </main>
 
-<section class="seo-content" aria-label="About Tamil Calendar">
-  <h2>About This Tamil Calendar / இந்த தமிழ் நாட்காட்டி பற்றி</h2>
-  <p>This free online <strong>Tamil Calendar</strong> (தமிழ் நாட்காட்டி) provides accurate daily Tamil dates, Tamil months, and Panchangam data for <strong>Tiruchirappalli, Tamil Nadu</strong>. Solar positions are calculated using the Swiss Ephemeris with <strong>Lahiri ayanamsa</strong>. Source code available on <a href="https://github.com/suryadevworks/tamil-calendar-source-code" target="_blank" rel="noopener noreferrer">GitHub</a> as open source.</p>
-  <p>Sun transit dates (<em>Rasi Peyarchi</em>) are determined using the <strong>13-Ghatika rule</strong> (312 minutes after sunrise). If the Sun enters a new Rasi within 312 minutes of sunrise, that day becomes Tamil Month Day 1; otherwise the next day is Month Day 1.</p>
-  <div class="seo-grid">
-    <div class="seo-card"><h3>Tamil Months / தமிழ் மாதங்கள்</h3><p>Chithirai · Vaikasi · Aani · Aadi · Aavani · Purattasi · Aippasi · Karthigai · Margazhi · Thai · Maasi · Panguni</p></div>
-    <div class="seo-card"><h3>Current Tamil Year</h3><p id="seoTamilYear">Visvavasu (விஸ்வாவசு) — 60-year Jovian cycle</p></div>
-    <div class="seo-card"><h3>Location / இடம்</h3><p>Tiruchirappalli (Trichy), Tamil Nadu<br>Lat: 10°56′N · Lon: 78°25′E</p></div>
-    <div class="seo-card"><h3>Open Source / திறந்த மூலம்</h3><p>Full source on <a href="https://github.com/suryadevworks/tamil-calendar-source-code" target="_blank" rel="noopener noreferrer">GitHub</a>. Swiss Ephemeris · Lahiri Ayanamsa · 13-Ghatika Rule.</p></div>
-  </div>
-</section>
 
-<!-- HOW IT WORKS TOGGLE -->
-<div class="doc-toggle-wrap">
-  <button class="doc-toggle-btn" id="docToggleBtn" onclick="toggleDoc()" aria-expanded="false" aria-controls="docSection">
-    <span>☀</span>
-    <span>How It Works / எப்படி செயல்படுகிறது</span>
-    <span class="ta-label">· தமிழ் காலண்டர் இயக்க விளக்கம்</span>
-    <span class="arr">▼</span>
-  </button>
-</div>
+
+
 
 <!-- DOCUMENTATION -->
 <div class="doc-wrapper" id="docSection" role="region" aria-label="How Tamil Calendar Works">
@@ -581,12 +562,9 @@ DEFAULT_LAT = <span style="color:#a0c8a0">8.0883</span>   DEFAULT_LON = <span st
 </div><!-- end .doc-wrapper -->
 
 <footer role="contentinfo">
-  <p>தமிழ் நாட்காட்டி &nbsp;|&nbsp; Tamil Calendar Online &nbsp;|&nbsp; Tiruchirappalli, Tamil Nadu</p>
+  <p>தமிழ் நாட்காட்டி &nbsp;|&nbsp; Tamil Calendar Online &nbsp;|&nbsp;Tamil Nadu</p>
   <nav aria-label="Footer links">
-    <a href="/">Home / முகப்பு</a>
-    <a href="/?year=2026&month=4">Chithirai 2026</a>
-    <a href="/?year=2026&month=1">Thai 2026</a>
-    <a href="/?year=2026&month=12">Margazhi 2026</a>
+    
     <a href="https://github.com/suryadevworks/tamil-calendar-source-code" target="_blank" rel="noopener noreferrer">GitHub Source</a>
   </nav>
 </footer>
